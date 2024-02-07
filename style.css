@@ -1,0 +1,398 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Navigation Menu Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Main Content */
+main {
+    padding: 1rem;
+}
+
+/* About Section */
+.about-section {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.about-section h1,
+.about-section h2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.about-section p {
+    margin-bottom: 1rem;
+}
+
+.about-image {
+    width: 60%;
+    /* Set a specific width to stretch the image */
+    height: 300px;
+    /* Set a fixed height */
+    display: block;
+    margin: 1rem auto;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ddd;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
+/* Catalog, Promotion, Contact, Author Sections */
+.catalog-section,
+.promotion-section,
+.contact-section,
+.author-section {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+/* Product Styling */
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Promotion Styling */
+.promotion {
+    background-color: #eee;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+form input,
+form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Author Info Styling */
+.author-info {
+    text-align: center;
+    padding: 1rem;
+}
+
+.author-info img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 60%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #090c01;
+    font-size: 24px;
+    height: 50%;
+}
+
+/* Product Section Styling */
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.product {
+    flex: 0 0 38%;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .product {
+        flex: 0 0 100%;
+    }
+}
+
+/* General Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.additional-contact-info {
+    margin-top: 1rem;
+}
+
+.google-map iframe {
+    width: 50%;
+    height: 450px;
+    border: none;
+}
+.promotion-section button {
+    background-color: #4CAF50;
+    /* Green background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.promotion-section button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+.promotion-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.promotion-container img {
+    width: 30%;
+    /* Adjust the width as needed */
+    margin-right: 2rem;
+    /* Space between image and text */
+}
+
+/* If you want the image on the right for the second promotion */
+.promotion-container:nth-child(even) img {
+    order: 2;
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+.promotion-container .promotion-text {
+    flex: 1;
+    /* Takes the remaining space */
+}
+.author-info img {
+    width: 150%;
+    /* Adjust this percentage to control the width */
+    .author-info img {
+    width: 70%; /* Adjust this percentage to control the width */
+    .author-info img {
+    width: 70%; /* Adjust this percentage to control the width */
+    border-radius: 50%;
+    height: auto; /* This ensures the height adjusts according to the width while maintaining the aspect ratio */
+    display: block; /* Display block to center the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+    height: auto; /* This ensures the height adjusts according to the width while maintaining the aspect ratio */
+    display: block; /* Display block to center the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+    height: auto;
+    /* This ensures the height adjusts according to the width while maintaining the aspect ratio */
+    display: block;
+    /* Display block to center the image */
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
+/* Add to your existing styles.css file */
+
+.testimonials-section {
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-left: 4px solid #4CAF50;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 1rem;
+    text-align: right;
+    color: #333;
+}
+
+/* Continue with your existing styles */
+/* Logo Styling */
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    /* Increase horizontal padding */
+    background-color: #444;
+    /* Or any other color you prefer */
+}
+
+/* Logo Link Styles */
+.logo-link {
+    margin-right: 11rem;
+    /* Increase the right margin to push the menu further away */
+    flex-shrink: 0;
+    /* Prevents the logo from shrinking */
+}
+
+.logo {
+    width: 100px;
+    /* Adjust the size of the logo as needed */
+    height: auto;
+}
+
+/* Rest of your navigation styles... */
+.lang-switch-container {
+    display: inline-block;
+    position: relative;
+}
+
+#langSwitch {
+    background-color: #ccc;
+    /* Default background color */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    /* Rounded edges */
+    font-size: 12px;
+    /* Smaller font size */
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#langSwitch.active {
+    background-color: #4CAF50;
+    /* Active state color */
+    box-shadow: 0 0 5px #4CAF50;
+    /* Shadow for a "glowing" effect */
+}
+#langSwitch {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#langSwitch.active {
+    background-color: #555;
+}

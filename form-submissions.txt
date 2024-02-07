@@ -1,0 +1,25 @@
+Name: Cristian Andrei Ciuparu
+Email: aslpnterra@gmail.com
+
+Message:
+acesta este un test
+Name: Cristian Andrei Ciuparu
+Email: aslpnterra@gmail.com
+
+Message:
+acesta este un test
+Name: Cristian Andrei Ciuparu
+Email: aslpnterra@gmail.com
+
+Message:
+testul numarul 2 cu delay
+Name: Cristian Andrei Ciuparu
+Email: aslpnterra@gmail.com
+
+Message:
+test de 5 secunde
+Name: Cristian Andrei Ciuparu
+Email: aslpnterra@gmail.com
+
+Message:
+test de 5 secunde
